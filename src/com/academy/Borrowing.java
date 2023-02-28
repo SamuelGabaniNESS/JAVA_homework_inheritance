@@ -16,9 +16,7 @@ public class Borrowing {
     }
 
     public Borrowing(Book book, Subscriber subscriber, LocalDate dateOfBorrowing, LocalDate returnDate){
-        this.book = book;
-        this.subscriber = subscriber;
-        this.dateOfBorrowing = dateOfBorrowing;
+        this(book,subscriber,dateOfBorrowing);
         this.returnDate = returnDate;
     }
 
